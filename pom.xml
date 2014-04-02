@@ -44,6 +44,19 @@
         <url>http://stanbol.apache.org/</url>
     </scm>
 
+    <distributionManagement>
+      <repository>
+        <id>redlink.marketplace.releases</id>
+        <name>RedLink Releases</name>
+        <url>http://repo.dev.redlink.io/content/repositories/marketplace-releases</url>
+      </repository>
+      <snapshotRepository>
+        <id>redlink.marketplace.snapshots</id>
+        <name>RedLink Snapshots</name>
+        <url>http://repo.dev.redlink.io/content/repositories/marketplace-snapshots/</url>
+      </snapshotRepository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>machinelinking-api-client-mvn-repo</id>
